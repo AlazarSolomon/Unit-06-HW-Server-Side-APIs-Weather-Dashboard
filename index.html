@@ -11,14 +11,105 @@
 </head>
 
 
-
+<body>
+    
 <nav class="navbar navbar-dark;" style= "background:linear-gradient(to right, rgb(55, 169, 214), rgb(50, 22, 102))">
   <a class="navbar-brand" style="color:aliceblue; font-size: xx-large; font-weight: bolder; padding-left: 39%;" href="#">Weather Dashboard</a>
 </nav>
 
-<nav class="navbar" style="width: 450px;">
+<nav class="navbar">
     <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <h1 class="text-primary" style="color:aliceblue;">Search for a City:</h1>
+      <form id="search-form" class="mb-2">
+        <input id="search-input" class="form-input w-100 my-2" style="height: 50px;" type="text" placeholder=" Denver">
+        <button class="btn btn-outline-success my-2 my-sm-3 w-100" style="background-color: rgb(85, 175, 228); color: white;">Search</button>
     </form>
-  </nav>
+
+
+  <hr class="mt-2 w-100" style="background-color: black;"/>
+
+ </nav>
+
+ <h1 class="text-primary my-4 pl-3" style="color:aliceblue;">Today's Forecast</h1>
+
+  <div class="col-md-0 col-lg-0 col-xl-4">
+    <div class="card shadow-0 border">
+      <div class="card-body p-4">
+        <h4 class="mb-1 sfw-normal">City Name, (Today)</h4>
+        <br>
+        <p>Current temperature: <span class="mb-2"></span> °F</p>
+        <p>Wind: <span class="wind"></span> MPH</p>
+        <p>Humidity: <span class="humidity"></span> %</p>
+        <p> UV Index: <span class="UV"></span></p>
+
+      </div>
+    </div>
+  </div>
+
+  <hr class="mt-2 w-100 my-4" style="background-color: black;"/>
+
+
+  </div>
+    <h1 class="text-primary my-4 pl-4" style="color:aliceblue;">5-day Forecast</h1>
+    <div class="card-deck mx-1 mb-5">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="day-2 mb-1 sfw-normal">City Name, (Today)</h4>
+          <br>
+          <p>Current temperature: <span class="temp-2"></span> °F</p>
+          <p>Wind: <span class="wind-2"></span> MPH</p>
+          <p>Humidity: <span class="humidity-2"></span> %</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="day-3 mb-1 sfw-normal">City Name, (Today)</h4>
+          <br>
+          <p>Current temperature: <span class="temp-3"></span> °F</p>
+          <p>Wind: <span class="wind-3"></span> MPH</p>
+          <p>Humidity: <span class="humidity-3"></span> %</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="day-4 mb-1 sfw-normal">City Name, (Today)</h4>
+          <br>
+          <p>Current temperature: <span class="temp-4"></span> °F</p>
+          <p>Wind: <span class="wind-4"></span> MPH</p>
+          <p>Humidity: <span class="humidity-4"></span> %</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="day-5 mb-1 sfw-normal">City Name, (Today)</h4>
+          <br>
+          <p>Current temperature: <span class="temp-5"></span> °F</p>
+          <p>Wind: <span class="wind-5"></span> MPH</p>
+          <p>Humidity: <span class="humidity-5"></span> %</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="day-6 mb-1 sfw-normal">City Name, (Today)</h4>
+          <br>
+          <p>Current temperature: <span class="temp-6"></span> °F</p>
+          <p>Wind: <span class="wind-6"></span> MPH</p>
+          <p>Humidity: <span class="humidity-6"></span> %</p>
+        </div>
+      </div>
+  
+
+
+  </div>
+
+
+</div>
+
+
+  
+</div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
