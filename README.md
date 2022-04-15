@@ -14,6 +14,21 @@ I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
 ```
 
+## The Link
+
+
+Use the [Github link](https://alazarsolomon.github.io/Unit-06-HW-Server-Side-APIs-Weather-Dashboard/) to view the application.
+
+
+## Description
+
+An application that allows the user to input a city in the world and it gives them the current weather and forecast for the next 6 days. 
+
+## Image 
+
+![This is the website](./Weather-Dashboard.png)
+
+
 ## Acceptance Criteria
 
 ```
@@ -34,7 +49,7 @@ THEN I am again presented with current and future conditions for that city
 
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./06-server-side-apis-homework-demo.png)
 
 ## Grading Requirements
 
